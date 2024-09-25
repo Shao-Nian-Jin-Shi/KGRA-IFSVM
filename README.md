@@ -1,1 +1,6 @@
-Firstly, calculate the degree of membership and non-membership for instances using the file named "KGRA.mat". Then, save the data in the workspace with names "train_positive" and "train_negative" into two separate files named "po" and "ne" respectively (these two datasets contain the degrees of membership and non-membership of instances, which will be used for subsequent model performance validation). Finally, use the file named "IFSVM.mat" to verify the classification performance of the model (here, instances will be converted into intuitionistic fuzzy numbers based on a scoring function).
+Usage Tutorial:
+(1) Run the program "IFSVM.m";
+(2) Get the result.
+Please note that this software package only supports the 64-bit version of Windows operating system.
+If you have any questions, please contact us. 
+Email: zhangqingbao@stu.sau.edu.cn
