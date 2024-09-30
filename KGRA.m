@@ -79,8 +79,6 @@ d_min=min(min(data_1));
 a=0.5;
 data_1_1=(d_min+a*d_max)./(data_1+a*d_max);
 xishu1(i, :)=mean(data_1_1,2);
-disp(' k邻域之间的灰色关联度分别为：');
-disp(xishu1);
 guanliandu1=mean(xishu1,2);
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,8 +95,6 @@ d_min2=min(min(data_2));
 a=0.5;
 data_2_2=(d_min2+a*d_max2)./(data_2+a*d_max2);
 xishu2(i, :)=mean(data_2_2,2);
-disp(' k邻域之间的灰色关联度分别为：');
-disp(xishu2);
    guanliandu2=mean(xishu2,2);
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -115,8 +111,6 @@ d_min=min(min(data_1));
 a=0.5;
 data11=(d_min+a*d_max)./(data_1+a*d_max);
 xishu11(i, :)=mean(data11,2);
-disp(' k邻域之间的灰色关联度分别为：');
-disp(xishu11);
 A11=mean(xishu11,2);
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -133,8 +127,6 @@ d_min2=min(min(data_2));
 a=0.5; 
 data22=(d_min2+a*d_max2)./(data_2+a*d_max2);
 xishu22(i, :)=mean(data22,2);
-disp(' k邻域之间的灰色关联度分别为：');
-disp(xishu22);
 A22=mean(xishu22,2);
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
